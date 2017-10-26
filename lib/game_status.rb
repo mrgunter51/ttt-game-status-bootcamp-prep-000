@@ -21,6 +21,6 @@ def won?(board)
     win2 = board[combo[1]]
     win3 = board[combo[2]]
     # unless(position_taken?(board,win1)
-    if(position_taken?board[combo[0]])
+    if position_taken?(board,combo[0]) && position_taken?(board,combo[1]) && position_taken?(board,combo[1])
   end
 end
